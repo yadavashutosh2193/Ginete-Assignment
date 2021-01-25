@@ -1,9 +1,8 @@
 import React from 'react';
-import GalleryDisc from './GalleryDisc';
 
 const SliderIamge = (props)=>{
     return (<>
-        <div className = "imagetittle">
+        <div className = "imagetittle1">
              <p style = {{fontWeight: 'bold'}}> price: <span style = {{color: 'green'}}>{props.price.daily} &euro; Daily</span></p>
              <p style = {{fontWeight: 'bold'}}>Name: <span style = {{color: 'white'}}> {props.details.name}</span></p>
         </div>

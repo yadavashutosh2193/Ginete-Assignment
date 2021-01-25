@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {connect} from 'react-redux';
 import {FetchImages} from './Redux/Action/Action';
-import GalleryDisc from './GalleryDisc';
 import SliderIamge from './SliderImage';
 
 function Gallery ({links, FetchImages}){
@@ -23,11 +22,6 @@ function Gallery ({links, FetchImages}){
       {
         links.map((element, id)=>{
           return <SliderIamge photourls = {element.photos} price = {element.price} details = {element.details} key = {id}/>
-        })
-      }
-      {
-        Imageurl.map((url, id)=>{
-          return <GalleryDisc photourl = {url} key = {id}/>
         })
       }
       </div>
