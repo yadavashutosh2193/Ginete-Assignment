@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.container{
+  border:  2px solid green;
+  overflow: auto;
+  white-space: nowrap;
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+.imagetittle{
+  background-color: lightcoral ;
+  margin-top: 20px;
+  padding: 14px;
+}
